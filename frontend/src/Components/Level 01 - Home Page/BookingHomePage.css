@@ -1,0 +1,56 @@
+.BookingHomePage{
+    height: 350px;
+    background-color: rgb(167, 166, 167);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Loginbox{
+    height: 260px;
+    box-shadow: 10px 10px white;
+    width: 300px;
+    border-radius: 20px;
+    margin: 100px;
+    color: white;
+    border: 2px solid rgb(152, 152, 152);
+    
+}
+
+.Loginbox h1{
+    text-align: center;
+    margin: 20px;
+    border-bottom: 2px solid white ;
+}
+
+.LogiBoxbutton{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogiBoxbutton button{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    color: rgb(55, 55, 55);
+    border: 2px solid rgb(85, 85, 85);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.LogiBoxbutton button:hover{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border: 2px solid white;
+}
