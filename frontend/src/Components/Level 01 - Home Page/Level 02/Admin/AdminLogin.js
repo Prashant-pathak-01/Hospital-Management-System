@@ -58,9 +58,9 @@ function AdminLogin() {
           <button type="submit">Login</button>
         </form>
       </div>
-      <div style={{margin:'20px', fontFamily:'cursive', fontWeight:'100', textAlign:'center'}}>
-      <h4>Username for Admin - Prashant@01</h4>
-      <h4>Password for Admin - 123456</h4>
+      <div style={{margin:'20px', fontFamily:'cursive', fontWeight:'100', textAlign:'center', color:'#303030'}}>
+      <h4>Demo UserName - Prashant@01</h4>
+      <h4>Demo Password - 123456</h4>
       </div>
     </div>
   );

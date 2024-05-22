@@ -64,6 +64,10 @@ function DoctorLogin() {
           <br />
           <button onClick={handleSubmit}>Login</button>
       </div>
+      <div style={{margin:'20px', fontFamily:'cursive', fontWeight:'100', textAlign:'center', color:'#303030'}}>
+        <h4>Demo UserName - Prashant@01</h4>
+        <h4>Demo Password - 123456</h4>
+      </div>
     </div>
   );
 }
